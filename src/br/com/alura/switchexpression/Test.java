@@ -1,6 +1,6 @@
 package br.com.alura.switchexpression;
 
-public class Teste {
+public class Test {
 
 	public static void main(String[] args) {
 		String nome = "João";
