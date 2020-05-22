@@ -17,5 +17,12 @@ public class Test {
 			System.out.println("Nenhum nome encontrado!!");
 		}
 		}
+
+		// Switch expression introduced in Java 14
+		switch (nome) {
+		case "Renata" -> System.out.println("Acertou: " + nome);
+		case "João" -> System.out.println("Acertou: " + nome);
+		default -> System.out.println("Nenhum nome encontrado!!");
+		}
 	}
 }
